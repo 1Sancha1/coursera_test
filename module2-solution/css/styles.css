@@ -1,0 +1,63 @@
+/** {
+	box-sizing: border-box;
+}*/
+body {
+	background-color: #FFFFFF;
+	font-family: Times New Roman, sans-serif;
+}
+h1	{
+	text-align: center;
+}
+section {
+	background-color: gray;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin: 10px;
+	border: 2px solid #010100;
+	float: left;
+}
+div.row > div
+{
+	background-color: gray;
+	margin: 0px;/*Братан если написать в этой строчке написать "margin: 5px;" то всё полетит 3-я колонна не будет вставть на место при самом большом масштабе*/
+	border: 2px solid black;
+	float: left;
+	overflow: auto;
+}
+
+
+.name_food{
+	background-color: #010100;
+	padding: 2px;
+	float: right;
+	
+}
+#chicken{
+	text-align: center;
+	background-color: #E63590;
+	width: 150px;
+	height:  25px;
+	
+}
+#beef{
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #D31B06;
+	width: 150px;
+	height:  25px;
+	
+}
+
+#sushi{
+	text-align: center;
+	background-color: #FBD00B;
+	width: 150px;
+	height:  25px;
+	
+}
+
+p{
+	clear: right;
+}
+
+
